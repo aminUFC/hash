@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <!-- <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    /> -->
+   
+    <link rel="stylesheet" href="src/styles.css">
+
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <!-- <input
+      id="search"
+      class="bg-white mb-4 focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+      type="text"
+      placeholder="search table"
+    />
+    <table class="table-auto" id="table">
+      <thead>
+        <tr>
+          <th class="px-4 py-2">Name</th>
+
+          <th class="px-4 py-2">Price</th>
+
+          <th class="px-4 py-2">Description</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfooter></tfooter>
+    </table> -->
+    <div class="container">   
+      <div style="display:flex; align-items: flex-end;height: 80px; width: 100%;">
+        <input id="search"  placeholder="search table" style="height:20px"/>
+
+      </div>
+      
+
+      <table id='tabl' style="width: 100%;">
+        <thead id='head'> 
+          <tr>       
+            <th colspan="1" >firstName</th>
+            <th colspan="1">lastName</th>
+            <th colspan="1" >age</th>
+            <th colspan="1" >visits</th>
+            <th colspan="1">progress</th>
+          </tr>          
+        </thead>
+        <tbody id="tby">   
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+             <tr></tr>
+
+        </tbody>
+        <tfoot id='tfoot' >
+        </tfoot>     
+      </table>
+     </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
